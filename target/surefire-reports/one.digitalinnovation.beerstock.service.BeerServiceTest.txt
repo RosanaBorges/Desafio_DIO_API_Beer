@@ -1,0 +1,48 @@
+-------------------------------------------------------------------------------
+Test set: one.digitalinnovation.beerstock.service.BeerServiceTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 11, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in one.digitalinnovation.beerstock.service.BeerServiceTest
+whenIncrementIsCalledWithInvalidIdThenThrowException  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class one.digitalinnovation.beerstock.mapper.BeerMapper
+	at one.digitalinnovation.beerstock.service.BeerServiceTest.<init>(BeerServiceTest.java:48)
+
+whenExclusionIsCalledWithValidIdThenABeerShouldBeDeleted  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class one.digitalinnovation.beerstock.mapper.BeerMapper
+	at one.digitalinnovation.beerstock.service.BeerServiceTest.<init>(BeerServiceTest.java:48)
+
+whenBeerInformedThenItShouldBeCreated  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class one.digitalinnovation.beerstock.mapper.BeerMapper
+	at one.digitalinnovation.beerstock.service.BeerServiceTest.<init>(BeerServiceTest.java:48)
+
+whenIncrementIsCalledThenIncrementBeerStock  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class one.digitalinnovation.beerstock.mapper.BeerMapper
+	at one.digitalinnovation.beerstock.service.BeerServiceTest.<init>(BeerServiceTest.java:48)
+
+whenIncrementAfterSumIsGreatherThanMaxThenThrowException  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class one.digitalinnovation.beerstock.mapper.BeerMapper
+	at one.digitalinnovation.beerstock.service.BeerServiceTest.<init>(BeerServiceTest.java:48)
+
+whenIncrementIsGreatherThanMaxThenThrowException  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class one.digitalinnovation.beerstock.mapper.BeerMapper
+	at one.digitalinnovation.beerstock.service.BeerServiceTest.<init>(BeerServiceTest.java:48)
+
+whenAlreadyRegisteredBeerInformedThenAnExceptionShouldBeThrown  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class one.digitalinnovation.beerstock.mapper.BeerMapper
+	at one.digitalinnovation.beerstock.service.BeerServiceTest.<init>(BeerServiceTest.java:48)
+
+whenListBeerIsCalledThenReturnAnEmptyListOfBeers  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class one.digitalinnovation.beerstock.mapper.BeerMapper
+	at one.digitalinnovation.beerstock.service.BeerServiceTest.<init>(BeerServiceTest.java:48)
+
+whenNotRegisteredBeerNameIsGivenThenThrowAnException  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class one.digitalinnovation.beerstock.mapper.BeerMapper
+	at one.digitalinnovation.beerstock.service.BeerServiceTest.<init>(BeerServiceTest.java:48)
+
+whenListBeerIsCalledThenReturnAListOfBeers  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class one.digitalinnovation.beerstock.mapper.BeerMapper
+	at one.digitalinnovation.beerstock.service.BeerServiceTest.<init>(BeerServiceTest.java:48)
+
+whenValidBeerNameIsGivenThenReturnABeer  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class one.digitalinnovation.beerstock.mapper.BeerMapper
+	at one.digitalinnovation.beerstock.service.BeerServiceTest.<init>(BeerServiceTest.java:48)
+

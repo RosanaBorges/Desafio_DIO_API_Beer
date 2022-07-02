@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: one.digitalinnovation.beerstock.BeerstockApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 7.075 s <<< FAILURE! - in one.digitalinnovation.beerstock.BeerstockApplicationTests
+contextLoads  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'beerController' defined in file [C:\Users\Pichau\Desktop\beer_api_digital_innovation_one-master\target\classes\one\digitalinnovation\beerstock\controller\BeerController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'beerService' defined in file [C:\Users\Pichau\Desktop\beer_api_digital_innovation_one-master\target\classes\one\digitalinnovation\beerstock\service\BeerService.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [one.digitalinnovation.beerstock.service.BeerService]: Constructor threw exception; nested exception is java.lang.ExceptionInInitializerError
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'beerService' defined in file [C:\Users\Pichau\Desktop\beer_api_digital_innovation_one-master\target\classes\one\digitalinnovation\beerstock\service\BeerService.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [one.digitalinnovation.beerstock.service.BeerService]: Constructor threw exception; nested exception is java.lang.ExceptionInInitializerError
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [one.digitalinnovation.beerstock.service.BeerService]: Constructor threw exception; nested exception is java.lang.ExceptionInInitializerError
+Caused by: java.lang.ExceptionInInitializerError
+Caused by: java.lang.RuntimeException: java.lang.ClassNotFoundException: Cannot find implementation for one.digitalinnovation.beerstock.mapper.BeerMapper
+Caused by: java.lang.ClassNotFoundException: Cannot find implementation for one.digitalinnovation.beerstock.mapper.BeerMapper
+
